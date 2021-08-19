@@ -21,12 +21,3 @@ Commands below must be executed from the project root
 ### Stop
 
 `make stop` or `docker-compose down`
-
-## Assumptions
-
-<b>When getting available pilots</b>:
-
-- the distribution is based in the amount of flights a pilot has
-  in the weekday of the departure request
-- If two pilots have the same amount on flights in a given day,
-  the decision is by alphabetical order
